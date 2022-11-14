@@ -53,35 +53,49 @@
     </div>
     </nav>
 
+    <!-- Wrapper container -->
+    <div class="container py-4">
+    
+      <!-- Bootstrap 5 starter form -->
+      <form action="https://formsubmit.co/39ad6f7ebd4c54c5c704a4266fc52755" method="POST" id="contactForm">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
 
-    <div class="container mt-5">
-      <h1>Contact Me!</h1>
-      <form class="row g-3" action="https://formsubmit.co/39ad6f7ebd4c54c5c704a4266fc52755" method="POST">
-        <!-- Honeypot -->
-        <input type="text" name="_honey" style="display: none;">
-
-        <!-- Disable Captcha -->
-        <input type="hidden" name="_captcha" value="false">
-
-        <input type="hidden" name="_next" value="https://htmlmonger.github.io/Portfolio/success.html" >
-
-
-        <div class="col-md-4 horizontal-center">
-          <input type="text" class="form-control" placeholder="Full Name" name="name" id="fullName" required>
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+    
+            <input type="hidden" name="_next" value="https://htmlmonger.github.io/Portfolio/success.html" >
+    
+        <!-- Name input -->
+        <div class="mb-3">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-control" id="name" type="text" placeholder="Name" name="name" data-sb-validations="required" />
+          <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
         </div>
     
-        <div class="col-md-4 horizontal-center">
-          <input type="email" class="form-control" placeholder="Your Email Address" name="email" id="emailInfo" required>
+        <!-- Email address input -->
+        <div class="mb-3">
+          <label class="form-label" for="emailAddress">Email Address</label>
+          <input class="form-control" id="emailAddress" type="email" name="email" placeholder="Email Address" data-sb-validations="required, email" />
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
         </div>
-        <div class="col-md-10  horizontal-center">
-
-          <textarea class="form-control" placeholder="Enter query here" id="comments" name="comments" rows="3" required></textarea>
+    
+        <!-- Message input -->
+        <div class="mb-3">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" name="message" data-sb-validations="required"></textarea>
+          <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
         </div>
-        <div class="col-md-10 horizontal-center">
-          <button type="submit" class="btn btn-primary">Submit</button>
+    
+        <!-- Form submit button -->
+        <div class="d-grid">
+          <button class="btn btn-primary btn-lg" type="submit">Submit</button>
         </div>
+    
       </form>
-  </div>
+    
+    </div>
 </div>
 
 
@@ -96,3 +110,4 @@
   ></script>
   </body>
 </html>
+
