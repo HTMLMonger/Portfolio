@@ -36,9 +36,7 @@ th td tr li ul {
 .carousel-item h5 {
   color: brown;
 }
-form {
-  color: darkslategrey;
-}
+
 .bg-image {
   background-image: url(/img/img7.jpg);
   background-size: cover;
