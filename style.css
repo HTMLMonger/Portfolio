@@ -39,7 +39,6 @@ th td tr li ul {
 }
 
 .bg-image {
-  background-image: url(/img/img7.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +46,7 @@ th td tr li ul {
 
 .img-fluid {
   min-height: 20vh;
-  max-height: 75vh;
+  max-height: 50vh;
 }
 .rounded-circle {
   margin-top: 10vh;
