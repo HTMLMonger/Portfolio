@@ -20,7 +20,7 @@ th td tr li ul {
 
 .carousel-item img {
   position: absolute;
-  object-fit: fill;
+  object-fit: cover;
 
   max-height: 100vh;
   min-width: 100vw;
