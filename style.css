@@ -48,9 +48,6 @@ th td tr li ul {
   min-height: 20vh;
   max-height: 50vh;
 }
-.rounded-circle {
-  margin-top: 10vh;
-}
 
 .vertical-center {
   margin: auto;
@@ -61,4 +58,26 @@ th td tr li ul {
   margin-right: auto;
   padding-top: 5vh;
   padding-bottom: 5vh;
+}
+
+@media (max-width: 768px) {
+  .vertical-center {
+    padding-top: 0vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .rounded-circle {
+    padding-top: 10vh;
+  }
+  .vertical-center {
+    padding-top: 5vh;
+  }
+}
+@media (min-width: 992px) {
+  .rounded-circle {
+    padding-top: 10vh;
+  }
+  .vertical-center {
+    padding-top: 10vh;
+  }
 }
