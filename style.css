@@ -13,7 +13,11 @@ th td tr li ul {
   background-color: blue;
   color: white;
 }
+a.navbar-brand{
+  margin-right: 0%;
+  padding-right: 0%;
 
+}
 .carousel .carousel-item {
   height: 100vh;
 }
