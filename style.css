@@ -13,11 +13,7 @@ th td tr li ul {
   background-color: blue;
   color: white;
 }
-a.navbar-brand{
-  margin-right: 0%;
-  padding-right: 0%;
 
-}
 .carousel .carousel-item {
   height: 100vh;
 }
@@ -26,12 +22,12 @@ a.navbar-brand{
   position: absolute;
   object-fit: cover;
 
-  max-height: 100vh;
-  min-width: 100vw;
+  max-height: 100%;
+  min-width: 100%;
 }
 
 .navbar md lg {
-  min-height: 10vh;
+  min-height: 10%;
 }
 
 .carousel-item p {
@@ -49,8 +45,8 @@ a.navbar-brand{
 }
 
 .img-fluid {
-  min-height: 20vh;
-  max-height: 50vh;
+  min-height: 20%;
+  max-height: 50%;
 }
 
 .vertical-center {
@@ -60,28 +56,33 @@ a.navbar-brand{
 .horizontal-center {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 @media (max-width: 768px) {
   .vertical-center {
-    padding-top: 5vh;
+    padding-top: 5%;
+  }
+  a.navbar-brand{
+    margin-right: 0%;
+    padding-right: 0%;
+  
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .rounded-circle {
-    margin-top: 20vh;
+    margin-top: 20%;
   }
   .vertical-center {
-    padding-top: 0vh;
+    padding-top: 0%;
   }
 }
 @media (min-width: 992px) {
   .rounded-circle {
-    margin-top: 10vh;
+    margin-top: 10%;
   }
   .vertical-center {
-    padding-top: 10vh;
+    padding-top: 10%;
   }
 }
