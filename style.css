@@ -22,6 +22,9 @@ th td tr li ul {
   align-items: center;       /* center ul container vertically */
   justify-content: center;
 }
+.container-form{
+  width: 50%;
+}
 .carousel-item img {
   position: absolute;
   object-fit: cover;
@@ -73,6 +76,9 @@ th td tr li ul {
     padding-right: 0%;
   
   }
+  .container-form{
+    width: 90%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .rounded-circle {
@@ -84,9 +90,9 @@ th td tr li ul {
 }
 @media (min-width: 992px) {
   .rounded-circle {
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .vertical-center {
-    padding-top: 10%;
+    padding-top: 5%;
   }
 }
