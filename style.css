@@ -17,7 +17,11 @@ th td tr li ul {
 .carousel .carousel-item {
   height: 100vh;
 }
-
+.container{
+  display: flex;             /* establish flex container */
+  align-items: center;       /* center ul container vertically */
+  justify-content: center;
+}
 .carousel-item img {
   position: absolute;
   object-fit: cover;
