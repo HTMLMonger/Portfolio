@@ -9,6 +9,8 @@ body {
   overflow: hidden;
 }
 
+
+
 th td tr li ul {
   background-color: blue;
   color: white;
@@ -66,7 +68,14 @@ th td tr li ul {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.img-container{
+  max-width:18rem;
+}
 
+.about-text{
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
 @media (max-width: 768px) {
   .vertical-center {
     padding-top: 5%;
@@ -78,6 +87,17 @@ th td tr li ul {
   }
   .container-form{
     width: 90%;
+  }
+  .img-fluid {
+
+    max-height: 100%;
+  }
+
+  .img-container{
+    max-width:15rem;
+  }
+  .about-text{
+    font-size: 1rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
